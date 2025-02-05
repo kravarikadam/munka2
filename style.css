@@ -1,0 +1,33 @@
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;  /* A fókuszáláskor se legyen árnyék vagy keret */
+}
+p {
+    text-align: justify;
+    text-indent: 10px;
+}
+.zold_egy {
+    background-color: rgb(145, 202, 3);
+}
+.zold_ketto {
+    background-color: rgb(68, 170, 0);
+}
+.zold_harom {
+    background-color: rgb(122, 204, 5);
+}
+.zold_negy {
+    background-color: rgb(109, 187, 3);
+}
+footer {
+    background-color: rgb(147, 145, 141);
+    border-radius: 5px;
+}
+nav {
+    background-color: rgb(68, 170, 0);
+}
+.dobozok {
+    background-color: rgb(164, 232, 119);
+    border-radius: 5px;
+}
