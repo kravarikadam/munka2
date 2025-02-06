@@ -20,14 +20,9 @@ p {
 .zold_negy {
     background-color: rgb(109, 187, 3);
 }
-footer {
-    background-color: rgb(147, 145, 141);
-    border-radius: 5px;
+.bg-zold_nav {
+    background-color:#5D9906;
 }
 nav {
-    background-color: rgb(68, 170, 0);
-}
-.dobozok {
-    background-color: rgb(164, 232, 119);
-    border-radius: 5px;
+    background-color:#5D9906;
 }
