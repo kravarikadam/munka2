@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .navbar-toggler {
     border: none !important;
 }
@@ -21,11 +24,47 @@ p {
     background-color: rgb(109, 187, 3);
 }
 .bg-zold_nav {
-    background-color:#5D9906;
+    background-color:#73af19;
 }
-nav {
-    background-color:#5D9906;
+.bg-zold_vilagos {
+    background-color:#e3ead8;
 }
 .width_footer_icons {
     width: 25px;
 }
+.bg_footer {
+    background-color: rgb(77, 77, 77);
+}
+.color_szurke {
+    color: rgb(77, 77, 77);
+}
+
+
+.bg_zold_teszt{
+    background-color: #4CAF50
+}
+.text_zold_teszt{
+    color:  #4CAF50
+}
+.bg_zold_vilagos_teszt {
+    background-color: #F2F8F2;
+}
+.text_zold_vilagos_teszt {
+    color:  #F2F8F2;
+}
+.bg_szurke_teszt {
+    background-color: #3D3D3D;
+}
+.text_szurke_teszt {
+    color:  #3D3D3D;
+}
+nav a {
+    color: #3D3D3D !important;
+}
+.navbar-toggler {
+    color: #3D3D3D !important;
+}
+
+
+
+
