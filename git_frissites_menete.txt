@@ -1,0 +1,6 @@
+git frissítés feltöltése: 
+
+-terminal C:\munka2
+-git add . 
+-git commit -m "bla bla"
+-git push origin master
