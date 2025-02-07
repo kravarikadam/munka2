@@ -11,51 +11,25 @@ p {
     text-align: justify;
     text-indent: 10px;
 }
-.zold_egy {
-    background-color: rgb(145, 202, 3);
-}
-.zold_ketto {
-    background-color: rgb(68, 170, 0);
-}
-.zold_harom {
-    background-color: rgb(122, 204, 5);
-}
-.zold_negy {
-    background-color: rgb(109, 187, 3);
-}
-.bg-zold_nav {
-    background-color:#73af19;
-}
-.bg-zold_vilagos {
-    background-color:#e3ead8;
-}
 .width_footer_icons {
     width: 25px;
 }
-.bg_footer {
-    background-color: rgb(77, 77, 77);
+.bg_zold {
+    background-color: #4CAF50;
 }
-.color_szurke {
-    color: rgb(77, 77, 77);
+.text_zold {
+    color:  #4CAF50;
 }
-
-
-.bg_zold_teszt{
-    background-color: #4CAF50
-}
-.text_zold_teszt{
-    color:  #4CAF50
-}
-.bg_zold_vilagos_teszt {
+.bg_zold_vilagos {
     background-color: #F2F8F2;
 }
-.text_zold_vilagos_teszt {
+.text_zold_vilagos {
     color:  #F2F8F2;
 }
-.bg_szurke_teszt {
+.bg_szurke {
     background-color: #3D3D3D;
 }
-.text_szurke_teszt {
+.text_szurke {
     color:  #3D3D3D;
 }
 nav a {
@@ -63,6 +37,14 @@ nav a {
 }
 .navbar-toggler {
     color: #3D3D3D !important;
+}
+
+body {
+    max-width: 1000px !important;
+}
+.carousel-item, .carousel-inner, .carousel {
+    width: 340px;
+    height: 400px;
 }
 
 
