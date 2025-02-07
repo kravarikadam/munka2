@@ -52,6 +52,14 @@ body {
 .carousel-control-next-icon {
     background-image: url('img/jobb_nyil.svg');
 }
+section li {
+    list-style: none; /* Alapértelmezett bullet eltávolítása */
+    background-image: url('img/logo_list_kicsi.png');
+    background-size: 20px; /* Ikon méretének beállítása */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px; /* Hely az ikon és a szöveg között */
+}
 
 
 
