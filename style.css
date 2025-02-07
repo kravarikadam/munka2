@@ -46,6 +46,12 @@ body {
     width: 340px;
     height: 400px;
 }
+.carousel-control-prev-icon {
+    background-image: url('img/bal_nyil.svg'); /* Saját szürke ikon /https://www.svgrepo.com/svg/109221/next?edit=true/*/
+}
+.carousel-control-next-icon {
+    background-image: url('img/jobb_nyil.svg');
+}
 
 
 
