@@ -60,6 +60,13 @@ section li {
     background-position: left center;
     padding-left: 25px; /* Hely az ikon és a szöveg között */
 }
+#kravadev {
+    font-size: 8px; /* Extra kicsi szöveg */
+    font-family: 'Space Mono', monospace;
+  }
+#kravadev a:hover {
+    color: #F2F8F2;
+  }
 
 
 
