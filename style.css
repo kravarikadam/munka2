@@ -47,10 +47,10 @@ body {
     height: 400px;
 }
 .carousel-control-prev-icon {
-    background-image: url('img/bal_nyil.svg'); /* Saját szürke ikon /https://www.svgrepo.com/svg/109221/next?edit=true/*/
+    background-image: url('img/bal_nyil.png'); /* Saját szürke ikon /https://www.svgrepo.com/svg/109221/next?edit=true/*/
 }
 .carousel-control-next-icon {
-    background-image: url('img/jobb_nyil.svg');
+    background-image: url('img/jobb_nyil.png'); /* svg átalakitása png-re https://cloudconvert.com/*/
 }
 section li {
     list-style: none; /* Alapértelmezett bullet eltávolítása */
