@@ -57,7 +57,7 @@ section li {
     background-image: url('img/logo_list_kicsi.png');
     background-size: 20px; /* Ikon méretének beállítása */
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     padding-left: 25px; /* Hely az ikon és a szöveg között */
 }
 #kravadev {
@@ -67,9 +67,23 @@ section li {
 #kravadev a:hover {
     color: #F2F8F2;
   }
-  .no-link {
+.no-link {
     pointer-events: none;
   }
+
+  /* Alapértelmezett beállítások (Android) */
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* iOS-specifikus beállítások */
+@supports (-webkit-overflow-scrolling: touch) {
+    .carousel-control-prev, .carousel-control-next {
+        /* Az iOS-en más elrendezést alkalmazzunk */
+        top: 45%; /* állítsd be igény szerint */
+    }
+}
 
 
 
