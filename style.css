@@ -67,6 +67,9 @@ section li {
 #kravadev a:hover {
     color: #F2F8F2;
   }
+  .no-link {
+    pointer-events: none;
+  }
 
 
 
