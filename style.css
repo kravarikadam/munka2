@@ -84,6 +84,14 @@ section li {
         top: 45%; /* állítsd be igény szerint */
     }
 }
+.logo {
+    height: 40px;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
 
 
 
